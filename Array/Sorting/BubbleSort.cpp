@@ -3,6 +3,7 @@ using namespace std;
 
 int BSort(int A[], int n){
 
+    int temp;
     
 }
 int main(){
