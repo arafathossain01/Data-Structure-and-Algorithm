@@ -3,14 +3,14 @@ using namespace std;
 
 int BSearch(int A[], int n, int item)
 {
-    int left = 0;
-    int right = n - 1;
+    int beg = 0;
+    int last = n - 1;
 
     
 
-    while (left <= right)
+    while (beg <= last)
     {
-        int mid = (left + right) / 2;
+        int mid = (beg + last) / 2;
         if (item == A[mid])
         {
             return mid;
@@ -18,12 +18,12 @@ int BSearch(int A[], int n, int item)
 
         if (item < A[mid])
         {
-            right = mid - 1;
+            last = mid - 1;
         }
 
         if (item > A[mid])
         {
-            left = mid + 1;
+            beg = mid + 1;
         }
     }
 
