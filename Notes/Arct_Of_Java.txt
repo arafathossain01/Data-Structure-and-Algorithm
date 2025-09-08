@@ -1,0 +1,20 @@
+                                                          জাভা আর্কিটেকচার
+                                                          ----------------
+
+Java একটি object oriented program.
+
+1. java প্রথম source code file তৈরি করে। যা মানুষের পড়ার যোগ্য। (file.java)
+
+2. compiler source code কে bytecode এ রুপান্তর করে। রুপান্তর করার পর একটা .class file তৈরি করে। Bytecode হচ্ছে machine independent, যেকোনো অপারেটিং সিস্টেমে একইভাবে কাজ করবে।
+
+3. JVM(Java virtual machine) bytecode কে machine code এ রুপান্তর করে। JIT(Just in time) compiler bytecode কে দ্রুত machine code এ রূপান্তর করে performance বাড়ায়।
+
+
+Java Platform এর মূল অংশ
+
+JVM (Java Virtual Machine) → Bytecode execute করে।
+
+JRE (Java Runtime Environment) → JVM + Libraries (Java চলার জন্য যা লাগে)।
+
+JDK (Java Development Kit) → JRE + Compiler + Development Tools (প্রোগ্রাম বানাতে লাগে)।
+
