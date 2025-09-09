@@ -3,19 +3,16 @@ package First;
 public class Variable {
     public static void main(String[] args) {
         int a = 10;
-        int mynum = 5;
-        mynum = 10 + 10; // it is now update
+        int mynum;
+        mynum = 10 ; // it is now update
         System.out.println(a);
         System.out.println("Sum is: " + mynum); // if we print two variable in one line then use + operator.
 
         /*
          * Java তে অনেক ধরণের variable আছে। Variable হলো data রাখার জায়গা।
-         * int--> it can contain integer value. (123,-123)
-         * float--> it can contain floating type value like 123.432
-         * String--> string can contain string type value such as "Hello olosh"
-         * char--> it can contain only charecter type value such as 'A','B'
-         * boolean--> it is most use to check condition. If the condition is right it
-         * show true else it show false. boolean type means true or false.
+         * int, float, String etc
+         * int number = 10; এই পুরাটা একটা vabiable যেখানে 10 কে রাখা হয়েছে।
+           
          */
 
         final double pi = 3.1416; // we cannot re-assing the name identifier
