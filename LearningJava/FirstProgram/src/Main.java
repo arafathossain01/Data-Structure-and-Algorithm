@@ -1,8 +1,9 @@
-public class Main{
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello Java Programmer.");
     }
 }
+
 
 /*  
 Java সব কোড একটা class এর ভিতরে থাকে। Class হলো একটা design বা blueprit যেখানে method , variable, data কিভাবে সাজান থাকবে তা নির্ধারণ করা হয়। java তে file এর নাম যা হবে class এর নামও তাই হবে। public class শুধুমাত্র file এর নাম অনুজায়ে হবে। অন্য class name শুধু class name হবে কোনো public add করতে পারবো নাহ। 
