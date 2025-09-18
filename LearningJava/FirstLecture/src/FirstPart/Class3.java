@@ -1,6 +1,7 @@
-package First;
+package FirstPart;
 
-public class DataType {
+// এই class এ DataType নিয়ে আলোচনা হয়েছে।
+public class Class3 {
     public static void main(String[] args) {
         byte num = 100;
         short num2 = 5000;

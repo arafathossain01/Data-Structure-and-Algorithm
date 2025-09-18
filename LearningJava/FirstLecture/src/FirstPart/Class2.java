@@ -1,6 +1,7 @@
-package First;
+package FirstPart;
 
-public class Variable {
+// এই class এ variable নিয়ে আলোচনা করা হয়েছে।
+public class Class2 {
     public static void main(String[] args) {
         int a = 10;
         int mynum;
@@ -15,7 +16,7 @@ public class Variable {
            
          */
 
-        final double pi = 3.1416; // we cannot re-assing the name identifier
+        final double pi = 3.1416; // we cannot re-assing the this identifier
         System.out.println(pi);
         /*
          * final একটা keyword যা mean করে এটা constant যা একবার assign করার পর আর
