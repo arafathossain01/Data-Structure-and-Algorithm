@@ -18,3 +18,19 @@ JRE (Java Runtime Environment) → JVM + Libraries (Java চলার জন্�
 
 JDK (Java Development Kit) → JRE + Compiler + Development Tools (প্রোগ্রাম বানাতে লাগে)।
 
+project Architecture 
+
+project/
+ ├─ src/
+ │   └─ myapp/
+ │       └─ Main.java
+ └─ bin/
+     └─ myapp/
+         └─ Main.class
+
+Compile করার comman-->
+javac -d bin src/myapp/Main.java
+
+Run করার জন্য command-->
+java -cp bin myapp.Main
+
