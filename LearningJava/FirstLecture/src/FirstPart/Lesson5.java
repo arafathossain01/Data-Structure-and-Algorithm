@@ -1,7 +1,7 @@
 package FirstPart;
 
 // Typecasting নিয়ে আলোচনা।
-public class Class5 {
+public class Lesson5 {
     public static void main(String[] args) {
         int number = 10;
         double mynum = number;

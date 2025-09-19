@@ -1,7 +1,7 @@
 package FirstPart;
 
 // Operator নিয়ে আলোচনা। 
-public class Class4 {
+public class Lesson4 {
     public static void main(String[] args) {
         int num1 = 30;
         int num2 = 20;

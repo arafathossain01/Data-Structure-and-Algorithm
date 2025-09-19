@@ -1,7 +1,7 @@
 package FirstPart;
 
 // এই class এ variable নিয়ে আলোচনা করা হয়েছে।
-public class Class2 {
+public class Lesson2 {
     public static void main(String[] args) {
         int a = 10;
         int mynum;
