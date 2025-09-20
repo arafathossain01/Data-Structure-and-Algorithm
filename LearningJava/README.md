@@ -32,3 +32,48 @@ project/
 javac -d bin src/myapp/Main.java
 - Run করার জন্য command-->
 java -cp bin myapp.Main
+
+##  Small Java Project Architecture
+
+<pre>
+MyProject
+ ├── src
+ │    ├── mainapp
+ │    │     └── Main.java
+ │    └── utils
+ │          └── Helper.java
+ └── bin (অথবা out)
+      ├── mainapp
+      │     └── Main.class
+      └── utils
+            └── Helper.class
+</pre>
+- project এর ভিতর সব থাকবে। src folder এ main code থাকবে। main code কে সাজানো এবং reuse এর জন্য package ব্যবহার করবো। 
+- project এর ভিতর bin folder এ .class file (byte code file) রাখতে হবে। তাহলে main code এবং byte code আলাদা থাকবে।
+
+##  Professional Java Project Architecture
+
+<pre>
+MyProject
+ ├── src
+ │    ├── main
+ │    │    ├── java
+ │    │    │    └── com
+ │    │    │         └── mycompany
+ │    │    │              ├── app
+ │    │    │              │    └── Main.java
+ │    │    │              └── utils
+ │    │    │                   └── Helper.java
+ │    │    └── resources
+ │    │          ├── application.properties
+ │    │          └── config.xml
+ │    └── test
+ │         └── java
+ │              └── com
+ │                   └── mycompany
+ │                        └── app
+ │                             └── MainTest.java
+ ├── pom.xml   (যদি Maven ব্যবহার করো)
+ ├── build.gradle (যদি Gradle ব্যবহার করো)
+ └── target বা build  (compiled output)
+ </pre>
