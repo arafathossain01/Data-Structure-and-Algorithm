@@ -6,7 +6,7 @@
 ## JAVA file Run Concept
 - java প্রথম source code file তৈরি করে। যা মানুষের পড়ার যোগ্য। (file.java)
 
-- compiler source code কে bytecode এ রুপান্তর করে। রুপান্তর করার পর একটা .class নামের file তৈরি করে।এই file টি bin folder এ থাকবে। Bytecode হচ্ছে machine independent, যেকোনো অপারেটিং সিস্টেমে একইভাবে কাজ করবে।
+- compiler source code কে bytecode এ রুপান্তর করে। রুপান্তর করার পর একটা .class নামের file তৈরি করে। এই file টি bin folder এ থাকবে। Bytecode হচ্ছে machine independent, যেকোনো অপারেটিং সিস্টেমে একইভাবে কাজ করবে।
 
 - JVM(Java virtual machine) bytecode কে machine code এ রুপান্তর করে। JIT(Just in time) compiler bytecode কে দ্রুত machine code এ রূপান্তর করে performance বাড়ায়।
 
