@@ -28,7 +28,7 @@ project/
          └─ Main.class
 </pre>
 
-- Compile করার comman-->
+- Compile করার command-->
 javac -d bin src/myapp/Main.java
 - Run করার জন্য command-->
 java -cp bin myapp.Main
