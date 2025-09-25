@@ -18,7 +18,7 @@ public class মানে এটাকে যেকোনো জায়গা থ
 
 public → মানে এই method সবাই ব্যবহার করতে পারবে।
 
-static → মানে object বানানো ছাড়া এটা চালানো যাবে।
+static → মানে object বানানো ছাড়া code চালানো যাবে।
 
 void → মানে কিছু return করবে না।
 
