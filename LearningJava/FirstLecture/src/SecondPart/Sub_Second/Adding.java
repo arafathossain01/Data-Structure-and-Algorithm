@@ -1,4 +1,4 @@
-package SecondPart;
+package SecondPart.Sub_Second;
 
 import java.util.Scanner;
 
