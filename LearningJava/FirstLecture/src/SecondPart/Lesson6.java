@@ -9,6 +9,8 @@ public class Lesson6 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("The number is: " + input.nextInt());
+
+        input.close();
     }
 }
 
@@ -17,5 +19,5 @@ public class Lesson6 {
  * টি java.util package এর ভিতরে থাকে। যাকে import করে নিতে হয়।
  * import করার পর Scanner এর একটি obj বানাতে হয়। উপরের code এ input হলো obj এর নাম।
  * 
- * 
+ * Java তে input এর কাজ শেষ হলে scanner obj বন্ধ করতে হয়। এতে resource লিক হওয়া থেকে বাঁচা যায়। 
  */
