@@ -64,3 +64,4 @@ accessModifier returnType methodName(parameterType1 parameterName1, parameterTyp
     return value; 
 }
 </pre>
+- যখন return করা হয়ে যাবে এর পর কোনো statement লিখলে error আসবে। কারণ, return মানে code ওই জায়গা তে শেষ এর পর আর কোনো statement লিখা যাবে নাহ। 

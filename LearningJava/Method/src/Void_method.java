@@ -6,6 +6,9 @@ public class Void_method {
     }
 
     static void Hello() {
+        /*
+         * This function is without parameter.
+         */
         System.out.println("Hello World");
     }
 }
