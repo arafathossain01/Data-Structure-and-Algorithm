@@ -65,3 +65,52 @@ accessModifier returnType methodName(parameterType1 parameterName1, parameterTyp
 }
 </pre>
 - যখন return করা হয়ে যাবে এর পর কোনো statement লিখলে error আসবে। কারণ, return মানে code ওই জায়গা তে শেষ এর পর আর কোনো statement লিখা যাবে নাহ। 
+
+## Pass by Value
+- Java method pass by value নিয়ে কাজ করে কিন্তু pass by reference নিয়ে কাজ করতে পারে নাহ।
+
+- Primitive type (int, double, char, short) এই সকল datatype pass by valu follow করে। primitive data type এ pass by valu করলে variable update করা যায় তাতে কোনো problem হয় নাহ।
+<pre>
+   public void changeValue(int data) {
+    data = 100; // শুধু কপির মান পরিবর্তন হলো
+}
+int x = 50;
+changeValue(x);
+</pre>
+- Non-primitive type (object) passing value of the reference variable. এইখানে method কে call করা হলে সরাসরি method এ value pass করা হয় নাহ, বরং value এর ঠিকানা copy করে দেওয়া হয়। যার ফলে obj এর value change করা যায় কিন্তু new value add করা যায় নাহ। parameter হিসেবে একটা নকল পাঠায়। তাই মান পরিবর্তন করা যায় কিন্তু ঠিকানা পরিবর্তন করা যায় নাহ। 
+<pre>
+class Student {
+    String name;
+    Student(String n) {
+        this.name = n;
+    }
+}
+
+public class ReferenceExample {
+
+    // মেথড: Student অবজেক্টের রেফারেন্সের কপি নেয়
+    public static void modifyObject(Student studentObj, String newName) {
+        System.out.println("  > মেথডের শুরুতে (studentObj.name): " + studentObj.name);
+
+        // 1. ভেতরের মান পরিবর্তন: এই পরিবর্তনটি মূল অবজেক্টেও হয়
+        studentObj.name = newName; 
+
+        System.out.println("  > মেথডের ভেতরের পরিবর্তন (studentObj.name): " + studentObj.name);
+        
+        // 2. রেফারেন্সের মান নতুন অবজেক্ট দ্বারা পরিবর্তন: 
+        // এই পরিবর্তনটি শুধুমাত্র studentObj কপির মধ্যে সীমাবদ্ধ থাকে, mainStudentObj কে প্রভাবিত করে না
+        studentObj = new Student("Ankita"); 
+        System.out.println("  > রেফারেন্স পরিবর্তন (studentObj.name): " + studentObj.name); 
+    }
+
+    public static void main(String[] args) {
+        Student mainStudentObj = new Student("Bipul");
+        System.out.println("Main: কল করার আগে (mainStudentObj.name): " + mainStudentObj.name); // আউটপুট: Bipul
+
+        modifyObject(mainStudentObj, "Rima");
+
+        System.out.println("Main: কল করার পরে (mainStudentObj.name): " + mainStudentObj.name); // আউটপুট: Rima
+    }
+}
+</pre> 
+
