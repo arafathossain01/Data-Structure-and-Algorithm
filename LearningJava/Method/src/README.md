@@ -1,7 +1,7 @@
-<h1 align="center">Java Methor or Function </h1>
+<h1 align="center">Java Method or Function </h1>
 
 ## What is method in java?
-- Method is a block of code in java, that is give or return some spacific task when we call the method. Method is just like a design of code that is hold in a block and it doing spacific task. 
+- Method is a block of code in java, that is give or return some spacific task when we call the method. Method is just like a design of code that is hold in a block and it doing spacific task. Method and function is same in java. 
 ## কেন method প্রয়োজন?
 - Method code এর readability বাড়ায়, code কে পুনরায় ব্যবহার যোগ্য করে তুলে। উদাহরণ সরূপ -> <br> 
 একটা বড় সমস্যার solve code লিখা আছে একটা spacific folder এ method আকারে, সেই সমাধান ব্যবহার করে আরেকটা সমস্যার সমাধান করতে হবে তখন ওই code আবার না লিখে আমরা ওই spacific folder এর কোড ব্যবহার করতে পারি। এটাই code reuseability এবং সমস্যা সমাধানের সময় ওই সমস্যাকে ভেংগে ছোট ছোট সমাধান করে পুরো problem solve করার মাধ্যমে code readability বারে। এতে করে DRY code লিখা থেকে বিরত থাকা যায়। 
