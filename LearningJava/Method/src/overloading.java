@@ -15,6 +15,6 @@ public class overloading {
 
 }
 /*
- * Method overloading is the same name of method but their work is different via differenet parementer.
+ * Method overloading is the process of code that is same name of method but their task is different via differenet parementer.
  * Important thing is if return type is different then method overloading will not wokring.  
  */
