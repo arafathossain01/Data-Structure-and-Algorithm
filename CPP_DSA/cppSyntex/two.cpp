@@ -6,8 +6,7 @@ using namespace std;
 int main()
 {
 
-    int a = 20;
-    int b = 40;
+    int a = 20, b = 20;
     string x = "Hello Programmer";
 
     cout << a << "+" << b << " = " << a + b << "\n"
