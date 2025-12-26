@@ -1,6 +1,6 @@
 ### how to use freopen?
 
-- freopen is use in competitive programming. It is used for big input and showing output. In console the big input and output are not suitable to show. That's why we used it. First create a <b>input.txt</b> file and a <b>output.txt</b> file. Create a main.cpp file then in cpp file write code and put here freopen like this:
+- freopen is use in competitive programming. It is used for big input and showing output. In console the big input and output are not suitable to show. That's why we used it. First create a <b>input.txt</b> file and a <b>output.txt9</b> file. Create a main.cpp file then in cpp file write code and put here freopen like this:
 
 ```js
     int main(){ 
